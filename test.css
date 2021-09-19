@@ -4,22 +4,8 @@ h1{
 	text-align: center;
 }
 
-.top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    text-decoration: none;
-	color: white;
-    background-color: green;
-    padding: 10px;
-    border: 1px solid black;
 
-}
 
-.top:hover{
-	background-color: grey;
-	border: 2px solid black;
-}
 
 .wrapper-1{
 	height: 600px;
@@ -176,7 +162,9 @@ h1{
 	[class*="box2"] {
 		width: 100%;
 	}
-
+       .box1, .box2, .box3{
+	       background-color : yellow;
+	}
 }
 
 @media only screen and (min-width: 769px){
