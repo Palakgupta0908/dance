@@ -1,0 +1,184 @@
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+.wrapper {
+    height: 600px;
+
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.box {
+    height: 600px;
+    width: 50%;
+    margin: 1em;
+    box-sizing: border-box;
+    float: left;
+    flex-direction: column;
+}
+
+.inbox {
+    width: 100%;
+    height: 100%;
+    background: rgb(227, 248, 39);
+}
+
+.box11 {
+    height: 50%;
+    width: 50%;
+    background: rgb(12, 184, 252);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.box12{
+    height: 50%;
+    width: 100%;
+    background: rgb(12, 184, 252);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.list{
+    padding: 5em;
+}
+.a1 {
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.b1 {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.c1 {
+    padding: 1em;
+}
+.box21 {
+    height: 100%;
+    width: 50%;
+    background: rgb(12, 184, 252);
+    box-sizing: border-box;
+    float: left;
+}
+
+.box22{
+    height: 50%;
+    width: 100%;
+    background: rgb(12, 184, 252);
+    box-sizing: border-box;
+    float: left;
+    flex-direction: column;
+}
+
+.a2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.b2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.c2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.box31 {
+    height: 50%;
+    width: 50%;
+    background: rgb(12, 184, 252);
+    box-sizing: border-box;
+    float: left;
+}
+
+p{
+    text-align: justify;
+    padding: 1em;
+}
+
+.a3 {
+    padding: 1em;
+}
+
+.b3 {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    background: rgb(12, 184, 252);
+}
+
+.c3 {
+    padding-top: 1em;
+    padding-right: 1em;
+    background: rgb(12, 184, 252);
+}
+
+.d3 {
+    padding: 1em;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img1{
+    padding-right: 2em;
+    padding-top: 4em;
+}
+.img2{
+    padding-bottom: 4em;
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 768){
+	.box{
+		width: 100%;
+	}
+    .box21{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px){
+	.box{
+		width: 30%;
+	}
+
+}
